@@ -50,25 +50,25 @@
 
         <RadioButton
             android:id="@+id/radioButton"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Pop" />
 
         <RadioButton
             android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Volk" />
 
         <RadioButton
             android:id="@+id/radioButton4"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Rap" />
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="33dp"
+            android:layout_width="11dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#6200F2"
@@ -77,23 +77,25 @@
 
     <com.google.android.material.slider.Slider
         android:id="@+id/slider"
-        android:layout_width="0dp"
+        android:layout_width="378dp"
         android:layout_height="35dp"
         android:layout_marginTop="32dp"
         android:stepSize="1.0"
         android:valueFrom="0.0"
         android:valueTo="4.0"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="328dp"
-        android:layout_height="187dp"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/slider"
+        app:layout_constraintStart_toStartOf="@+id/slider"
         app:layout_constraintTop_toBottomOf="@+id/slider"
-        tools:layout_editor_absoluteX="41dp" />
+        tools:text="This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder! This is a placeholder!" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
